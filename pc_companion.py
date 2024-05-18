@@ -368,7 +368,7 @@ if EDIT_ACTION:
     
     # generate command
     if os.environ.get('ENV_DOCKER', False): # using Docker
-        command = 'docker run --privileged --volume /dev:/dev -it pc-companion'
+        command = 'docker run --privileged --volume /dev:/dev -it itsmevjnk/pc_companion'
     else:
         command = sys.argv[0]
     if VERBOSE: command += ' -v' # enable verbose output
