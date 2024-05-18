@@ -1,0 +1,14 @@
+.vscode/
+__pycache__/
+fs/
+RegionalTrain/
+MetroTrain/
+MetroTram/
+MetroBus/
+RegionalCoach/
+RegionalBus/
+TeleBus/
+NightBus/
+Interstate/
+SkyBus/
+*.json

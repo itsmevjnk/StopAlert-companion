@@ -1,0 +1,4 @@
+# prerequisite pip packages for the PC companion app
+
+requests
+pyserial
