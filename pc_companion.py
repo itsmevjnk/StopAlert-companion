@@ -762,6 +762,10 @@ if ACT_CONNECT_DEV:
                             if VERBOSE: print(f'[DBG] Terminating file writing operation.')
                             device.write(b'\x46')
                             wait_ready()
+    
+            print(f'Exiting host interface mode.')
+            device.write(b'\x71\n')
+            
 
     print(f'Closing serial communication.')
     device.close()
